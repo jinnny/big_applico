@@ -3036,6 +3036,14 @@ main {
     font-weight: 600
   }
 }
+@media (max-width: 991px) {
+  .c-album-list__song {
+    display: none;
+  }
+  body {
+    width: 100%;
+  }
+}
 
 .c-album-list__song-item {
   opacity: 0;
@@ -3356,7 +3364,12 @@ main {
   overflow: auto;
   position: relative;
   overflow-y: auto;
-  height: 100vw;
+}
+
+@media (max-width: 991px) {
+  .c-album-info__text {
+    height: 200px;
+  }
 }
 
 .c-album-info__text p {
