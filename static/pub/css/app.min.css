@@ -3412,6 +3412,9 @@ main {
     margin-right: -20px;
     width: calc(100% + 20px)
   }
+  .c-album-info__text.ps--active-y {
+    width: calc(100% + 10px)
+  }
 }
 
 .c-album-info__close {
