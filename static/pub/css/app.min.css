@@ -3379,6 +3379,13 @@ main {
     height: 400px;
   }
 }
+@media (max-width: 991px) {
+  @supports (-webkit-touch-callout: none) {
+    .c-album-info__text {
+      padding-bottom: 40px;
+    }
+  }
+}
 @media (max-width: 991px) and (max-height: 800px) {
   .c-album-info__text {
     height: 340px;
