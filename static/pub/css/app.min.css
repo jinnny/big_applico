@@ -3374,6 +3374,9 @@ main {
   overflow-y: auto;
 }
 
+.c-album-info__text img {
+  max-width: 100%;
+}
 @media (max-width: 991px) {
   .c-album-info__text {
     height: 400px;
