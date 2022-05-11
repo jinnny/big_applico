@@ -2736,7 +2736,6 @@ main {
   }
 
   .c-banner.is-back {
-    z-index: -1;
   }
 }
 
@@ -2868,7 +2867,9 @@ main {
   top: calc(100% - 2px);
   animation: hamburgerLineBottomClose .5s cubic-bezier(.25, .1, .25, 1) alternate
 }
-
+.is-sidebar-open .c-banner {
+  z-index: 3000;
+}
 .is-sidebar-open .c-banner-hamburger__icon > div:first-child {
   top: calc(50% - 1px);
   animation: hamburgerLineTop .5s cubic-bezier(.25, .1, .25, 1) forwards
@@ -3242,7 +3243,7 @@ main {
 
 @media (max-width: 991px) {
   .c-album-info {
-    z-index: 9;
+    z-index: 2000;
     position: fixed;
     bottom: 0;
     height: 50px;
@@ -3539,7 +3540,7 @@ main {
   visibility: hidden
 }
 
-@media (max-width: 650px) {
+@media (max-width: 991px) {
   .c-album-info__top-btn {
     opacity: 1;
     visibility: visible
