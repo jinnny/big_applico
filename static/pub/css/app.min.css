@@ -3390,7 +3390,7 @@ main {
 @media (max-width: 991px) {
   @supports (-webkit-touch-callout: none) {
     .c-album-info-content-all {
-      padding-bottom: 40px;
+      padding-bottom: 80px;
     }
   }
 }
