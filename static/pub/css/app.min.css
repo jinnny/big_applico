@@ -2734,6 +2734,10 @@ main {
   .c-banner {
     padding-top: 20px
   }
+
+  .c-banner.is-back {
+    z-index: -1;
+  }
 }
 
 .c-banner-logo {
@@ -3378,30 +3382,37 @@ main {
   max-width: 100%;
 }
 @media (max-width: 991px) {
-  .c-album-info__text {
-    height: 400px;
+  .c-album-info-content-all {
+    height: 420px;
+    overflow-y: auto;
   }
 }
 @media (max-width: 991px) {
   @supports (-webkit-touch-callout: none) {
-    .c-album-info__text {
+    .c-album-info-content-all {
       padding-bottom: 40px;
     }
   }
 }
 @media (max-width: 991px) and (max-height: 800px) {
-  .c-album-info__text {
+  .c-album-info-content-all {
     height: 340px;
   }
 }
 @media (max-width: 991px) and (max-height: 700px) {
-  .c-album-info__text {
+  .c-album-info-content-all {
     height: 300px;
   }
 }
 
+@media (max-width: 991px) and (max-height: 500px) {
+  .c-album-info-content-all {
+    height: 200px;
+  }
+}
+
 @media (max-width: 350px) {
-  .c-album-info__text {
+  .c-album-info-content-all {
     height: 150px;
   }
 }
