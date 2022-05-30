@@ -3382,7 +3382,13 @@ main {
 .c-album-info__text img {
   max-width: 100%;
 }
+@media (min-width: 991px) {
+  .c-album-info__text {
+    max-height: 400px;
+  }
+}
 @media (max-width: 991px) {
+
   .c-album-info-content-all {
     height: 100%;
     overflow-y: auto;
